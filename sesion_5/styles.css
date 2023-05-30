@@ -28,11 +28,12 @@ letter-spacing: 2px;
 line-height: 50px;
 padding-top: 200px;
 }
-div {
+.textos {
     padding: 20%;
 }
-div.pie_pagina {
+.pie_pagina {
     background-color: black;
+    color:aliceblue;
 }
 .lista2 {
     list-style: none;
@@ -45,3 +46,11 @@ div.pie_pagina {
     line-height: 50px;
     padding-top: 200px;
     }
+* {
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
