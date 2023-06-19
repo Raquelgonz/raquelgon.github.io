@@ -1,0 +1,82 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight:lighter;
+   
+}
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: gray;
+padding-bottom: 200px;
+
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.lista1 {
+list-style: none;
+padding: 0%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: gray;
+font-weight: 100;
+letter-spacing: 2px;
+line-height: 50px;
+padding-top: 200px;
+}
+.textos {
+    padding: 20%;
+}
+.pie_pagina {
+    background-color: black;
+    color:aliceblue;
+}
+.lista2 {
+    list-style: none;
+    padding: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding-top: 200px;
+    }
+* {
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.enlace:hover {
+    color: plum;
+text-decoration:underline;
+}
+ a[href*="+"]:hover {
+text-decoration:line-through;
+}
+#menu {
+    background-image: url(fondo.jpg);
+    width: 100vw;
+    height: 200vh;
+    background-size: contain;
+}
+.menu > li {
+    list-style: none;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 40px;
+    color: white;
+    display: inline;
+}
+.menu {
+    padding: 20%;
+}
