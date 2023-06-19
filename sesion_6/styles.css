@@ -59,7 +59,7 @@ img {
     color: plum;
 text-decoration:underline;
 }
- a[href*="+"]:hover {
+ .enlace-vacio:hover {
 text-decoration:line-through;
 }
 #menu {
