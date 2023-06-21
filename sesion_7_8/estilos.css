@@ -1,12 +1,28 @@
-nav {
+header {
     background-color: #00175e;
     width: 100%;
     height: 70px;
 }
-header > img {
-    max-width: 100%; 
+main > img {
+    width: fit-content; 
     height: auto;
+    display: block;  
+    margin-left: 0%;  
+    margin-right: 0%;
 }
 body {
     margin: 0%;
+}
+h1{
+  font-size: 50pt;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+h2{
+    font-size: 20pt;
+    font-family:sans-serif;
+    text-align: center;
+}
+main{
+    background-color: aqua;
 }
