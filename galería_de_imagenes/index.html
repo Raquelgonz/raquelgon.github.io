@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title> Galería de imagenes </title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
-</head>
+     <meta charset="utf-8">
+     <title> Galería de imagenes </title>
+     <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="lightbox2/css/lightbox.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  </head>
 
   <body>
-   <header>
-     <h1> Galería de</h1>
-     <h2>imágenes</h2>
-   </header>
-   <main>
-     <section class="padre">
-       <a id="gif" href="imagenes/1-gif.gif" data-lightbox="galería" data-title="Autorretrato GIF" data-alt="GIF animado de un autorretrato" target="_blank">
-       </a>
-       <a href="imagenes/2-svg.svg" target="_blank">
-        <img src="imagenes/2-svg.svg" alt="SVG" title="logo Bombú">
-       </a>
-       <a href="imagenes/3-png.png" target="_blank">
-       <img src="imagenes/3-png.png" alt="PNG" title="patitos">
-       </a>
-       <a href="imagenes/4-png.png" target="_blank">
-        <img src="imagenes/4-png.png" alt="PNG" title="mock-up revista">
-       </a>  
-       <a href="imagenes/5-png.png" target="_blank">
-        <img src="imagenes/5-png.png" alt="PNG" title="autorretrato en pictograma">
-       </a>
-       <a href="imagenes/6-jpg.jpg" target="_blank">
-        <img src="imagenes/6-jpg.jpg" alt="JPG" title="Bela">
-       </a>  
-       <a href="imagenes/7-jpg.jpg" target="_blank">
-         <img src="imagenes/7-jpg.jpg" alt="JPG" title="Bella">
-      </a>     
-      <a id="flatlay" href="imagenes/8-jpg.jpg" target="_blank">
-        <img src="imagenes/8-jpg.jpg" alt="JPG"  title="Fucking Hormones">
-      </a> 
-      <a href="imagenes/9-jpg.jpg" target="_blank">
-        <img src="imagenes/9-jpg.jpg" alt="JPG" title="Gliese">
-      </a>  
-     </section>
-   </main>
-   <footer>
-    <span><hr>
-          <p>Raquel González</p></span>
-   </footer>
+
+    <header>
+       <h1> Galería de</h1>
+       <h2>imágenes</h2>
+    </header>
+
+    <main>
+       <section class="padre"> 
+           <a  class="flatlay" href="imagenes/8-jpg.jpg" data-lightbox="Galería" data-title="FUCKING HORMONES" data-alt="Flatlay ilustración FUCKING HORMONES"/>
+             <img class="flatlay" src="imagenes/8-jpg.jpg" alt="Flatlay ilustración FUCKING HORMONES"> 
+           </a>  
+           <a  class="pictograma"  href="imagenes/5-png.png" data-lightbox="Galería" data-title="Pictogramatízate" data-alt="Autorretrato en forma de pictograma PNG"/>
+             <img class="pictograma" src="imagenes/5-png.png" alt="Autorretrato en forma de pictograma PNG"> 
+           </a>
+           <a  class="gliese" href="imagenes/9-jpg.jpg" data-lightbox="Galería" data-title="Gliese-581" data-alt="Videojuego Gliese-581"/>
+              <img class="gliese" src="imagenes/9-jpg.jpg" alt="Videojuego Gliese-581"> 
+           </a>
+           <a  class="gif" href="imagenes/1-gif.gif" data-lightbox="Galería" data-title="Autorretrato" data-alt="Autorretrato GIF animado"/>
+              <img class="gif" src="imagenes/1-gif.gif" alt="Autorretrato GIF animado"> 
+           </a>
+           <a  class="bombu" href="imagenes/2-svg.svg" data-lightbox="Galería" data-title="Logo Bombú" data-alt="Logo Bombú SVG"/>
+             <img class="bombu" src="imagenes/2-svg.svg" alt="Logo Bombú SVG"> 
+           </a> 
+           <a  class="pegatinas" href="imagenes/10-jpg.jpg" data-lightbox="Galería" data-title="Pegatinas Bombú" data-alt="Mock-up pegatinas Bombú"/>
+             <img class="pegatinas" src="imagenes/10-jpg.jpg" alt="Mock-up pegatinas Bombú""> 
+           </a>
+            <a  class="bella" href="imagenes/7-jpg.jpg" data-lightbox="Galería" data-title="Perrita" data-alt="PNG Bella la perra"/>
+             <img class="bella" src="imagenes/7-jpg.jpg" alt="PNG Bella la perra"> 
+           </a>
+           <a class="bela" href="imagenes/6-jpg.jpg" data-lightbox="Galería" data-title="Gatita" data-alt="PNG Bela la gata"/>
+             <img class="bela" src="imagenes/6-jpg.jpg" alt="PNG Bela la gata"> 
+           </a>
+          <a  class="patitos" href="imagenes/3-png.png" data-lightbox="Galería" data-title="Patitos" data-alt="Patitos nadando en estanque PNG"/>
+             <img class="patitos"  src="imagenes/3-png.png" alt="Patitos nadando en estanque PNG"> 
+           </a>
+       </section>
+    </main>
+
+    <footer>
+       <span> <hr>
+           <p>Raquel González</p></span>
+    </footer>
+    <script src="lightbox2/js/lightbox-plus-jquery.js"></script>
   </body>
 </html>

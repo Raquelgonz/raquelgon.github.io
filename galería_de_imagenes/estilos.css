@@ -4,22 +4,63 @@ body{
   background-size: cover;
 }
 header, main {
-  margin: 4% 4% 10% 10%;
+  margin: 4% 10% 4% 10%;
+}
+img:hover {
+  border-radius: 0.5vw;
+  filter: blur(0px);
+
 }
 img {
-  border: 0px;
-  border-radius:20px;
-  padding: 0%;
+  border-radius: 2vw;
+  filter: blur(4px);
   background-color: #fffcd5;
-  max-width: 20vw;
 }
-  a:link {
-    text-decoration: none;
-    filter: blur(4px);
-  }
-  a:hover {
-    filter: none;
-  }
+a {
+  text-decoration: none;
+}
+.padre {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-between;
+}
+.patitos {
+  order: 9;
+ width: 78vw;
+}
+.gliese {
+ 
+ width: 78vw;
+}
+.bombu {
+
+  width: 32.7vw;
+}
+.pegatinas {
+
+  width: 44.4vw;
+}
+.flatlay {
+
+width: 44vw;
+}
+.bella {
+
+  width: 47.8vw;
+}
+.bela {
+
+  width: 29.8vw;
+}
+.pictograma {
+
+  width: 34vw;
+}
+.gif {
+
+  width: 78vw;
+}
 h1 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: transparent;
@@ -33,10 +74,6 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   margin: -3% 0% 0% 8%;
 }
-.padre {
-  display: flex;
-  flex-wrap: wrap; 
-}
 p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -46,11 +83,5 @@ p {
 }
 hr {
   border-top: 0.15vw solid #22001b93;
-  margin: 10% 20% 3% 20%;
-}
-#flatlay {
-order: 1;
-}
-#gif {
-  order: 3;
+  margin: 5% 20% 3% 20%;
 }
